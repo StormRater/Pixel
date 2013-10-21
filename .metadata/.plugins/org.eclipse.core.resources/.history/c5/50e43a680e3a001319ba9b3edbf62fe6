@@ -1,0 +1,13 @@
+package supportClasses;
+
+import java.awt.Color;
+import java.awt.Graphics;
+
+public interface graphicsMethods
+{
+	public void drawPoint(Graphics d, int x, int y);
+	
+	public void setBackground(Graphics g, int red, int green, int blue);
+
+	public void setBackground(Graphics g, Color bgColor);
+}
