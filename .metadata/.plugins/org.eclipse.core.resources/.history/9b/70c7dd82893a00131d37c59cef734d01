@@ -4,13 +4,10 @@ import org.newdawn.slick.AppGameContainer;
 import org.newdawn.slick.BasicGame;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
-import org.newdawn.slick.Image;
 import org.newdawn.slick.SlickException;
 
 public class DriverClass extends BasicGame{
 
-	Image elementSpriteSheet=null;
-	
 	public DriverClass(String title) {
 		super(title);
 		// TODO Auto-generated constructor stub
@@ -18,7 +15,7 @@ public class DriverClass extends BasicGame{
 	
 	@Override
 	public void init(GameContainer container) throws SlickException {
-		elementSpriteSheet= new Image("src/icons/elementSpriteSheet.png");
+		// TODO Auto-generated method stub
 		
 	}
 
@@ -31,7 +28,7 @@ public class DriverClass extends BasicGame{
 	@Override
 	public void render(GameContainer container, Graphics g) throws SlickException {
 		
-		elementSpriteSheet.draw(400, 300);
+		
 	}
 	
 	public static void main(String[] args) throws SlickException {

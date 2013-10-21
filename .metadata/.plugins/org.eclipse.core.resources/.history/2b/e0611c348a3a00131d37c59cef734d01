@@ -31,7 +31,7 @@ public class DriverClass extends BasicGame{
 	@Override
 	public void render(GameContainer container, Graphics g) throws SlickException {
 		
-		elementSpriteSheet.draw(400, 300);
+		elementSpriteSheet.draw(300, 400);
 	}
 	
 	public static void main(String[] args) throws SlickException {
